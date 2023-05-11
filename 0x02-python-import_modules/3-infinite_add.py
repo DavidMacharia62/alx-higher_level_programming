@@ -1,9 +1,9 @@
-#!/usr/bin/env python3
-import sys
+#!/usr/bin/python3
+from sys import argv
 
-if __name__ == '__main__':
-    args = sys.argv[1:]
-    total = 0
-    for arg in args:
-        total += int(arg)
-    print(total)
+sum = 0
+if __name__ == "__main__":
+    for arg in argv[1:]:
+        sum += int(arg)
+
+    print("{:d}".format(sum))
