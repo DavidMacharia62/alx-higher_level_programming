@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 '''
-Module of a Square class
+The Module of a Square class
 '''
+
 
 class Square:
     '''A simple class that defines a square
@@ -42,14 +43,14 @@ class Square:
         self.__size = val
 
     def area(self):
-        '''This function finds the area of the Square
+        '''Finds the area of the Square
         Returns:
             The area of the square
         '''
         return self.__size ** 2
 
     def my_print(self):
-        '''This Prints the square using "#"
+        '''Prints the square using "#"
         '''
         if self.size == 0:
             print()
