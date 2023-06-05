@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 '''
-This Module contains Rectangle Class
+Module contains Rectangle Class
 '''
 class Rectangle():
     '''
