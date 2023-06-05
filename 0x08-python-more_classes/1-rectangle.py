@@ -5,14 +5,20 @@ Module contains Rectangle Class
 
 
 class Rectangle:
-    """An empty rectangle class"""
+    """
+    An empty rectangle class
+    """
 
+    
     def __init__(self, width=0, height=0):
-        """Initialises the Rectangle class
+        """
+        Initialises the Rectangle class
         args:
             width (int): The width of the rectangle
             height (int): The height of the rectangle
         """
+        
+
         if not isinstance(width, int):
             raise TypeError("width has to be an integer")
         elif width < 0:
@@ -34,10 +40,13 @@ class Rectangle:
 
     @width.setter
     def width(self, value):
-        """The setter of the width peoperty
+        """
+        The setter of the width peoperty
         args:
             value (int): The value of the width property
         """
+        
+
         if not isinstance(value, int):
             raise TypeError("width must be an integer")
         elif value < 0:
@@ -52,10 +61,13 @@ class Rectangle:
 
     @height.setter
     def height(self, value):
-        """The setter of the height property
+        """
+        The setter of the height property
         args:
             value (int): The value of the height property
         """
+        
+
         if not isinstance(value, int):
             raise TypeError("height must be an integer")
         elif value < 0:
