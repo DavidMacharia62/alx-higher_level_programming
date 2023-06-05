@@ -9,7 +9,6 @@ class Rectangle:
     An empty rectangle class
     """
 
-    
     def __init__(self, width=0, height=0):
         """
         Initialises the Rectangle class
@@ -17,7 +16,6 @@ class Rectangle:
             width (int): The width of the rectangle
             height (int): The height of the rectangle
         """
-        
 
         if not isinstance(width, int):
             raise TypeError("width has to be an integer")
@@ -45,7 +43,6 @@ class Rectangle:
         args:
             value (int): The value of the width property
         """
-        
 
         if not isinstance(value, int):
             raise TypeError("width must be an integer")
@@ -66,7 +63,6 @@ class Rectangle:
         args:
             value (int): The value of the height property
         """
-        
 
         if not isinstance(value, int):
             raise TypeError("height must be an integer")
