@@ -2,6 +2,8 @@
 '''
 Module contains Rectangle Class
 '''
+
+
 class Rectangle():
     '''
     An empty rectangle class
