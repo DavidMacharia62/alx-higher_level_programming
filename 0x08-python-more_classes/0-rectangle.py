@@ -2,7 +2,7 @@
 '''
 This Module contains Rectangle Class
 '''
-class Rectangle:
+class Rectangle():
     '''
     An empty rectangle class
     '''
