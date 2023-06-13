@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Module 1-write_file.py
+Module 1-write_file
 
 This is composed of the method 1-write_file that writes a string to a text file
 """
